@@ -5,10 +5,70 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* HEADER */
+
 /* header nav */
+.menu {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* debug */
+    background-color: lightblue;
+}
+.navigation {
+    border: 1px dashed black;
+    padding: 7px;
+
+    /* debug */
+    background-color: orange;
+}
+
+.logo {
+    width: 15%;
+}
+
+.list {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+ul.list li {
+    list-style-type: none;
+}
+
+.login {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
 
 /* rest of header */
+.second-header {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    /* debug */
+    background-color: blue;
+}
+
+.pink {
+    width: 600px;
+    height: 300px;
+
+    /* debug */
+    background-color: fuchsia;
+    border: 1px dashed black;
+}
 
 
 /* MAIN */
