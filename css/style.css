@@ -20,13 +20,13 @@ a {
     justify-content: center;
 
     /* debug */
-    background-color: lightblue;
+    background-color: #ADD8E6;
 }
 .navigation {
-    border: 1px dashed black;
     padding: 7px;
-
+    
     /* debug */
+    border: 1px dashed black;
     background-color: orange;
 }
 
@@ -35,7 +35,7 @@ a {
 }
 
 .list {
-    width: 40%;
+    width: 35%;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -54,35 +54,107 @@ ul.list li {
 
 /* rest of header */
 .second-header {
-    padding: 30px;
+    padding: 40px;
     display: flex;
     justify-content: center;
     /* debug */
-    background-color: blue;
+    background-color: #00008B;
 }
 
 .pink {
-    width: 600px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
 
     /* debug */
-    background-color: fuchsia;
+    background-color: #EE82EE;
     border: 1px dashed black;
 }
 
 
 /* MAIN */
 
-/* section 1 */
+.container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+}
 
-/* section 2 */
+.square {
+    height: 350px;
 
-/* section 3 */
+    /* debug */
+    border: 1px dashed black;
+}
+
+.white {
+    /* debug */
+    background-color: white;
+}
+
+.gray {
+    /* debug */
+    background-color: #D3D3D3;
+}
+
+.lightblue {
+    width: 450px;
+
+    /* debug */
+    background-color: #1E90FF;
+}
+
+.photo {
+    width: 270px;
+
+    /* debug */
+    background-color: #FFC0CB;
+}
 
 /* section 4 */
+.green {
+    width: 720px;
+    height: 500px;
+
+    /* debug */
+    background-color: #228B22;
+}
 
 /* FOOTER */
-
 /* footer first part */
+.footer-section {
+    /* debug */
+    background-color: #23272A;
+    border: 2px solid white;
+}
+.aqua-column {
+    width: calc(100%/6);
+    height: 350px;
 
+    /* debug */
+    background-color: #20B2AA;
+    border: 1px dashed white;
+}
+
+.pink-column {
+    width: calc(100%/3);
+    height: 350px;
+
+    /* debug */
+    background-color: #F08080;
+    border: 1px dashed black;
+}
 /* footer second part */
+
+.second-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    /* debug */
+    border: 1px dashed black;
+    padding: 3px;
+}
